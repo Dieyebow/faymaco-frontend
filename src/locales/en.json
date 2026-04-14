@@ -1,0 +1,642 @@
+{
+  "meta": {
+    "title": "Peelo Chat — Build & Scale AI Agents on WhatsApp",
+    "description": "Deploy AI Chatbots on WhatsApp in minutes. Peelo Chat is the #1 WhatsApp Automation Platform for Sales, Customer Support & Marketing.",
+    "keywords": "ai chatbot whatsapp, whatsapp business api, sales automation whatsapp, customer support ai"
+  },
+  "nav": {
+    "home": "Features",
+    "pricing": "Pricing",
+    "features": "Benefits",
+    "console": "Console",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Sign Up",
+    "back_home": "Back to Home",
+    "how_it_works": "How it works"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "refund": "Refund",
+    "description": "Artificial intelligence driving your growth on WhatsApp.",
+    "platform": "Platform",
+    "legal": "Legal Notice",
+    "terms": "Terms & Conditions",
+    "mentions": "Rights",
+    "social": "Social"
+  },
+  "home": {
+    "hero": {
+      "verified": "Verified Tech Provider",
+      "title": "Create, Train <br /> and Deploy your <br /> <0>AI Agents.</0>",
+      "subtitle": "The platform designed to build intelligent business assistants in minutes. Connected directly to <0>WhatsApp.</0>",
+      "cta": "Start Free Trial",
+      "rating": "4.8/5",
+      "trust": "Trusted by +100 Entrepreneurs",
+      "sales_automation": "Automated Sales on WhatsApp",
+      "support_ai": "Customer Support AI",
+      "support_desc": "Instant answers 24/7.",
+      "whatsapp_community": "Join our WhatsApp Community",
+      "talk_to_expert": "Talk to an Expert"
+    },
+    "trust": {
+      "title": "They trust us"
+    },
+    "verified_provider": {
+      "badge": "Official Tech Provider",
+      "title": "Tech Provider",
+      "subtitle": "Meta Verified.",
+      "description": "Peelo offers you the assurance of WhatsApp solutions that are not only reliable and secure but also at the cutting edge of innovation.",
+      "points": [
+        "Infrastructure robustness validated by Meta",
+        "Excellence in data management processes",
+        "Proven performance at scale"
+      ],
+      "card": {
+        "secure": "100% Secure",
+        "compliance": "Compliance verified",
+        "infra_health": "Infrastructure Health",
+        "optimal": "Optimal",
+        "encrypted": "Data Encrypted",
+        "meta_partner": "Certified Partner"
+      }
+    },
+    "features": {
+      "title": "An AI Team <br /> <0>that never sleeps.</0>",
+      "description": "Deploy a team of AI agents capable of qualifying, selling, and assisting your customers without interruption.",
+      "response_time": "Response < 10s",
+      "auto_qual": "Auto Qualification",
+      "multi_agent": "Multi-Agents",
+      "more_sales": "+100% Sales"
+    },
+    "demo": {
+      "label": "PeeloShop in Action",
+      "title": "Your Store <br /> <0>Directly on WhatsApp.</0>",
+      "description": "Discover how your customers can order directly via WhatsApp with our intelligent chatbot. A smooth, natural, and frictionless shopping experience.",
+      "list": [
+        "Intuitive shopping journey on WhatsApp",
+        "Smart automated responses",
+        "Real-time order management",
+        "Optimized mobile interface"
+      ],
+      "cta": "Create My Agent"
+    },
+    "academy": {
+      "label": "Peelo Academy",
+      "title": "Master Your <br /> <0>Automation.</0>",
+      "description": "Step-by-step guides to configure your agents and boost your business on WhatsApp.",
+      "watch_youtube": "Watch on Youtube"
+    },
+    "testimonials": {
+      "label": "Testimonials",
+      "title": "They are already automating <br /> <0>their business with Peelo.</0>",
+      "lucia": {
+        "text": "I automated orders in my 3 restaurants with a single Peelo agent. incredible time savings.",
+        "role": "Restaurateur"
+      },
+      "sophie": {
+        "text": "My agent qualifies real estate leads even before I pick up the phone. My appointments are much higher quality.",
+        "role": "Real Estate Agent"
+      },
+      "joel": {
+        "text": "24/7 support doubled our conversions on weekends. Customers love the speed of responses.",
+        "role": "E-commerce Merchant"
+      },
+      "mamadou": {
+        "text": "Thanks to Peelo, we have totally transformed our way of managing customer support. Automation has allowed us to respond faster, reduce errors, and offer a smoother experience to our customers. Today, our teams focus on high value-added cases while Peelo efficiently handles common requests. Result: more satisfied customers and much better performing support.",
+        "role": "Operations Manager, Keyzen"
+      }
+    },
+    "process": {
+      "label": "Peelo Process",
+      "title": "From Idea to Prod <br />in <0>10 minutes.</0>",
+      "create": {
+        "title": "Create",
+        "desc": "Give a role and personality via our interface."
+      },
+      "train": {
+        "title": "Train",
+        "desc": "Griot AI transforms your documents into intelligence."
+      },
+      "test": {
+        "title": "Test",
+        "desc": "Simulate real conversations before launching."
+      },
+      "connect": {
+        "title": "Connect",
+        "desc": "Scan QR Code and your WhatsApp agent is online."
+      },
+      "cta": "Create My Agent Now"
+    },
+    "pricing": {
+      "label": "Pricing",
+      "title": "One simple plan.",
+      "cta": "Choose this plan",
+      "subtitle": "Choose the plan that fits your needs.",
+      "plans": {
+        "connect": {
+          "title": "Connect",
+          "price": "15 USD",
+          "subtitle": "For developers and No-Code experts.",
+          "desc": "Connect WhatsApp to your tools (n8n, Make, API). Manage your flows yourself.",
+          "features": [
+            "1 WhatsApp Agent",
+            "Playground Access (Drag & Drop)",
+            "Console API Access & Webhooks",
+            "~~AI Credits & Griot AI~~",
+            "~~Peelo Shop E-commerce~~",
+            "Support: WhatsApp Community"
+          ],
+          "cta": "Start Coding",
+          "link": "https://dashboard.peelo.chat/register"
+        },
+        "smart": {
+          "title": "Smart Agent",
+          "price": "30 USD",
+          "subtitle": "Automate your customer service.",
+          "desc": "Your turnkey intelligent agent powered by Griot AI, responding 24/7.",
+          "features": [
+            "2 WhatsApp Agents",
+            "Playground Access (Drag & Drop)",
+            "2,500 AI Credits / month",
+            "~~Peelo Shop E-commerce~~",
+            "Support: WhatsApp Community"
+          ],
+          "cta": "Create my Agent",
+          "link": "https://dashboard.peelo.chat/register"
+        },
+        "business": {
+          "title": "Business & Shop",
+          "price": "45 USD",
+          "subtitle": "The complete solution: AI Agents and Online Store.",
+          "desc": "Everything you need to sell and automate.",
+          "features": [
+            "5 WhatsApp Agents",
+            "Playground Access (Drag & Drop)",
+            "5,000 AI Credits / month",
+            "Griot AI Included",
+            "E-commerce Page & Catalog",
+            "Auto WhatsApp Catalog Sync",
+            "POS & Order Management",
+            "Priority Support"
+          ],
+          "cta": "Launch My Shop",
+          "link": "https://dashboard.peelo.chat/register"
+        },
+        "enterprise": {
+          "title": "Enterprise",
+          "price": "Custom",
+          "subtitle": "For high conversation volumes and specific needs.",
+          "desc": "Custom volume, CRM integration, white label, or complex requirements.",
+          "features": [
+            "Unlimited agents",
+            "Playground Access (Drag & Drop)",
+            "Custom AI Quota",
+            "Technical integration by our team",
+            "Contract and Invoicing on quote"
+          ],
+          "cta": "Make a request",
+          "link": "https://wa.me/221781528375"
+        }
+      },
+      "table": {
+        "headers": [
+          "Feature",
+          "Connect (15 USD)",
+          "Smart Agent (30 USD)",
+          "Business & Shop (45 USD)",
+          "Enterprise (Custom)"
+        ],
+        "rows": [
+          { "label": "Target", "values": ["Developers", "SMBs / Support", "Online Merchants", "Large Enterprises"] },
+          { "label": "Console Access", "values": ["Included", "Included", "Included", "Included"] },
+          { "label": "Agents", "values": ["1 Agent", "2 Agents", "5 Agents", "Unlimited / TBD"] },
+          { "label": "GRIOT AI", "values": ["No", "Griot AI", "Griot AI", "Custom Templates"] },
+          { "label": "Peelo Shop", "values": ["~~Peelo Shop~~", "~~Peelo Shop~~", "Included", "Included"] },
+          { "label": "Support", "values": ["WhatsApp Community", "WhatsApp Community", "Priority", "Dedicated / Phone"] }
+        ]
+      }
+    },
+    "how_it_works": {
+      "title": "The Peelo Chat <br /> <0>User Journey.</0>",
+      "subtitle": "Peelo Chat is a B2B SaaS platform that allows businesses to build AI Agents for WhatsApp. We operate on a \"Freemium\" model: users can sign up and build their chatbot for free. A paid subscription is only required when they decide to deploy the agent to a live WhatsApp number or access our advanced proprietary AI engine.",
+      "steps": {
+        "1": {
+          "title": "Free Sign-up & Creation",
+          "desc": "A user creates a free account and accesses the dashboard. They can start building their agent immediately using our visual editor without paying anything.",
+          "badge": "Start"
+        },
+        "2": {
+          "title": "Configuration & Griot AI",
+          "desc": "Build your agent for free using our visual logic blocks. Need more power? Activate **Griot AI** (available on 'Smart Agent' plans) to train your assistant with your business documents and let it answer complex queries automatically.",
+          "badge": "Build"
+        },
+        "3": {
+          "title": "The Upgrade Trigger",
+          "desc": "The usage remains free during the building phase. When the user is ready to go live, they hit a paywall. They must select a monthly subscription plan (e.g., Smart Agent at $30/mo) to unlock the deployment features.",
+          "badge": "Upgrade"
+        },
+        "4": {
+          "title": "WhatsApp Connection",
+          "desc": "Once the plan is active, the deployment process begins. Inside the secure dashboard, the user connects their WhatsApp Business phone number by scanning a QR code or linking their API credentials.",
+          "badge": "Connect"
+        },
+        "5": {
+          "title": "Live Automation & Top-ups",
+          "desc": "The agent handles customer conversations automatically 24/7. Each plan comes with a monthly allowance of AI credits. If quota is exhausted, users can purchase top-ups directly from the dashboard.",
+          "badge": "Scale"
+        }
+      },
+      "cta": "Start your Journey"
+    }
+  },
+  "api": {
+    "label": "Visual Flow Builder",
+    "title": "Imagine. Draw. <br /> <0>Automate.</0>",
+    "description": "No need to be a developer. Build complex customer journeys in a few clicks with our visual editor. Drag, drop, and see your ideas come to life.",
+    "features": [
+      "Drag & Drop Interface",
+      "Conditional Logic",
+      "Native Integrations",
+      "Ready-to-use Templates"
+    ],
+    "cta": "Try the Editor",
+    "active_flow": "Active Flow",
+    "executions": "executions",
+    "note": "* Actual interface of the Peelo creation studio"
+  },
+  "faq": {
+    "title": "Got questions? We've got answers.",
+    "q1": "Do I need technical skills?",
+    "a1": "No, Peelo is designed to be accessible to everyone. Our intuitive interface allows you to configure your agent without writing a single line of code.",
+    "q2": "Can I use my own WhatsApp number?",
+    "a2": "Yes, you can connect your own number. However, it requires a number not associated with a personal WhatsApp account, or migrating it to the WhatsApp Business app.",
+    "q3": "What is a 'credit' at Peelo?",
+    "a3": "A credit generally corresponds to a series of interactions. Our standard plan includes 2,500 credits, which is sufficient to handle a large volume of monthly conversations for an SMB.",
+    "q4": "How does human intervention work?",
+    "a4": "At any time, you can take over a conversation from our dashboard. The AI automatically pauses as soon as you intervene.",
+    "q5": "Are my data secure?",
+    "a5": "Yes, we use the official Meta Cloud API (WhatsApp) which adheres to the highest security standards (GDPR). Your customer data is encrypted and we never share it with third parties."
+  },
+  "privacy_policy": {
+    "title": "Peelo Privacy Policy",
+    "updated": "Last updated: January 1, 2025",
+    "intro": [
+      "At Peelo, protecting our users' personal data is of paramount importance.",
+      "We are committed to ensuring the security and confidentiality of information collected via our WhatsApp chatbot platform. This privacy policy explains how we collect, use, share, and protect your information."
+    ],
+    "s1": {
+      "title": "1. Scope of this Policy",
+      "text": [
+        "This policy covers how we handle personal data collected when you use our Peelo platform. By \"personal data\", we mean any information that allows an individual to be directly or indirectly identified.",
+        "It does not cover the practices of companies we do not own or control, nor those of people we do not manage."
+      ]
+    },
+    "s2": {
+      "title": "2. Information We Collect",
+      "text": [
+        "When you use Peelo, we collect information about you to offer a personalized experience and help you create more effective WhatsApp chatbots. This may include information you provide when creating an account, such as your name, email address, and password. We also collect information about your interactions with our platform, such as:",
+        "<strong>Messages and Media:</strong> We collect messages and media files sent via our chatbots to ensure proper service operation and improve user experience.",
+        "<strong>User-Provided Data:</strong> First name, last name, email address, phone number...",
+        "<strong>Data from Third Parties:</strong> We may receive information from third-party partners, such as payment platforms and analytics services, when you interact with Peelo."
+      ]
+    },
+    "s3": {
+      "title": "3. How We Use Your Information",
+      "list": [
+        "Provide, manage, and improve our services",
+        "Personalize your user experience",
+        "Ensure platform security and prevent fraud"
+      ]
+    },
+    "s4": {
+      "title": "4. Information Sharing and Disclosure",
+      "text": [
+        "We do not sell or rent your personal data. However, we may share certain information with:",
+        "<strong>Third-Party Service Providers:</strong> Technical partners, hosts, and payment providers who help us deliver Peelo.",
+        "<strong>Legal Obligations:</strong> We may disclose your data if required by law or to respond to government requests."
+      ]
+    },
+    "s5": {
+      "title": "5. Information Protection",
+      "text": [
+        "We take the security of your information very seriously and have implemented security measures to protect your data against unauthorized access, disclosure, loss, or destruction. We have established appropriate physical, electronic, and administrative security procedures to protect your data."
+      ]
+    },
+    "s6": {
+      "title": "6. Cookies and Similar Technologies",
+      "text": [
+        "We use cookies to improve your experience on our Peelo platform. Cookies are small text files stored on your computer or mobile device that allow our platform to recognize you when you return to our website. Cookies also help us understand how you use our platform and allow us to improve our services accordingly."
+      ]
+    },
+    "s7": {
+      "title": "7. Your Privacy Rights",
+      "text": ["You have the right to:"],
+      "list": [
+        "Access your personal data",
+        "Rectify or delete your data",
+        "Object to certain processing",
+        "Withdraw your consent at any time"
+      ],
+      "contact": "To exercise these rights, contact us at contact@peelo.chat."
+    },
+    "s8": {
+      "title": "8. Children's Privacy",
+      "text": [
+        "Peelo is not intended for children under 13 years of age. We do not knowingly collect their data. If a parent or guardian discovers that their child has shared information, we will delete it immediately upon request."
+      ]
+    },
+    "s9": {
+      "title": "9. Account and Data Deletion",
+      "text": [
+        "You may request the deletion of your account and personal data by contacting us at contact@peelo.chat"
+      ]
+    },
+    "s10": {
+      "title": "10. Changes to this Policy",
+      "text": [
+        "We reserve the right to modify this policy at any time. Any significant update will be notified to you via our platform or by email."
+      ]
+    },
+    "s11": {
+      "title": "11. Contact Us",
+      "text": [
+        "For any questions regarding this privacy policy, contact us at contact@peelo.chat."
+      ]
+    }
+  },
+  "refund_policy": {
+    "title": "Cancellation & Refund Policy",
+    "updated": "Last updated: January 20, 2026",
+    "s1": {
+      "title": "1. SUBSCRIPTION CANCELLATION",
+      "text": "You may cancel your Peelo Chat subscription at any time.",
+      "list": [
+        "<strong>How to cancel:</strong> You can cancel directly from your account dashboard or by contacting our support team at <1>contact@peelo.chat</1>.",
+        "<strong>Effect of cancellation:</strong> If you cancel, your subscription will stop renewing automatically. You will retain access to the service and your credits until the end of your current billing cycle. No further charges will be applied."
+      ]
+    },
+    "s2": {
+      "title": "2. REFUND POLICY",
+      "text": "In accordance with Paddle standards, we offer a 14-day refund period.",
+      "list": [
+        "<strong>14-Day Guarantee:</strong> You have 14 days after your initial purchase or renewal to request a full refund if you are not satisfied.",
+        "<strong>Procedure:</strong> Simply send your request to <1>contact@peelo.chat</1>.",
+        "<strong>After 14 days:</strong> Past this period, no refunds will be granted for the current billing cycle."
+      ]
+    },
+    "s3": {
+      "title": "3. EXCEPTIONS",
+      "text": "Refunds may be considered on a case-by-case basis at the sole discretion of Peelo Inc SASU, only in the following specific circumstances:",
+      "list": [
+        "<strong>Double Billing:</strong> If a technical error resulted in your card being charged twice for the same period.",
+        "<strong>Service Failure:</strong> If the platform was completely inaccessible for an extended period (more than 48 hours) due to a fault on our end."
+      ]
+    },
+    "s4": {
+      "title": "4. CONTACT US",
+      "text": "If you have any questions about this policy, please contact us at:",
+      "company": "Peelo Inc SASU",
+      "location": "Dakar, Sénégal"
+    }
+  },
+  "cookie_consent": {
+    "text": "We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "learn_more": "Learn more"
+  },
+  "terms": {
+      "title": "Terms of Service",
+      "h1_title": "Terms and Conditions <br /> <span class=\"italic\">of Peelo Chat</span>",
+      "subtitle": "Last updated: January 24, 2026",
+      "introduction": {
+        "title": "1. Introduction",
+        "content": [
+          "These Terms of Service (hereinafter referred to as \"Terms\") govern the access and use by any user (hereinafter referred to as \"the User\" or \"you\") of the Peelo Chat platform, operated by <strong>Peelo Inc SASU</strong> (hereinafter referred to as \"Peelo Chat\" or \"the Platform\").",
+          "Peelo Chat allows the creation and deployment of chatbots on WhatsApp as well as the dissemination of broadcast campaigns on WhatsApp.",
+          "By registering or accessing Peelo Chat, you accept these Terms in full without reservation.",
+          "If you do not accept these Terms, you are not authorized to use the Platform."
+        ]
+      },
+      "definitions": {
+        "title": "2. Definitions",
+        "items": [
+          "<strong>Peelo Chat Platform:</strong> set of tools, APIs, web interfaces, features and services allowing the creation and management of WhatsApp chatbots and broadcast campaigns.",
+          "<strong>WhatsApp Chatbot:</strong> automated program deployed by the User via Peelo Chat to interact with users on WhatsApp.",
+          "<strong>Broadcast Campaign:</strong> simultaneous and scheduled sending of a message to a list of WhatsApp numbers, managed via the Platform.",
+          "<strong>User Content:</strong> all texts, images, files, messages, scripts and data transmitted, stored or generated by the User or its recipients via Peelo Chat."
+        ]
+      },
+      "access": {
+        "title": "3. Access and Registration",
+        "content": [
+          "<strong>1. Registration:</strong> The User must provide a valid email address, a secure password, and any other information required during account creation. You are solely responsible for the confidentiality of your credentials.",
+          "<strong>2. WhatsApp Business App Account:</strong> To use Peelo Chat, the User must have a phone number registered with WhatsApp Business App. You guarantee that this number belongs to you and complies with WhatsApp's terms of use.",
+          "<strong>3. Eligibility:</strong> You declare that you are of legal age (or have parental authorization if applicable) and have the legal capacity to accept these Terms."
+        ]
+      },
+      "licenses": {
+        "title": "4. Authorizations and Licenses",
+        "content": [
+          "<strong>1. License granted to the User:</strong> Subject to compliance with these Terms, Peelo Chat grants you a limited, non-exclusive, non-transferable, non-assignable and revocable right to use the Platform to create, configure and manage your chatbots and broadcast campaigns on WhatsApp.",
+          "<strong>2. License granted to Peelo Chat:</strong> By submitting any User Content (texts, files, scripts, messages, etc.), you grant Peelo Chat a worldwide, non-exclusive and revocable license, limited to the duration necessary for the operation of the Platform. This license strictly allows Peelo Chat to:",
+          "- Host your contents on its servers.",
+          "- Ensure technical maintenance (backups, updates, incident resolutions).",
+          "- Improve and optimize the quality of its services (diagnostics, global and anonymized statistical analyses, usage tests).",
+          "Peelo Chat formally undertakes not to:",
+          "- Resell your contents or your data to a third party for commercial purposes.",
+          "- Exploit them to generate direct revenue (targeted advertising, external monetization).",
+          "- Share them with partners or advertisers for prospecting purposes.",
+          "Your data is hosted and used solely to ensure the proper functioning, security and continuous improvement of the Peelo Chat Platform. Any use of your contents is strictly limited to the purposes described above and in our Privacy Policy."
+        ]
+      },
+      "obligations": {
+        "title": "5. User Obligations",
+        "content": [
+          "<strong>1. Compliance with laws and regulations:</strong> You agree to use Peelo Chat in accordance with applicable laws and regulations (in particular those relating to personal data protection, electronic communication and anti-spam).",
+          "<strong>2. Recipient Consent:</strong> Before sending any message via a chatbot or broadcast campaign, you guarantee that you have previously obtained, for each recipient, the explicit and informed consent necessary (opt-in) to receive communications by WhatsApp. You must keep proof of this consent and provide it to Peelo Chat if necessary.",
+          "<strong>3. Unsubscribe Right (opt-out):</strong> You must imperatively offer each recipient a simple, free and permanent way to unsubscribe from your messages (e.g., by replying \"STOP\", \"UNSUBSCRIBE\" or via a dedicated web link). Any unsubscribe request must be processed immediately and free of charge.",
+          "<strong>4. Prohibited Content:</strong> It is strictly forbidden to send, via Peelo Chat, messages or create chatbots containing:",
+          "- Discriminatory remarks or aimed at encouraging hatred against an individual or a group (racism, sexism, xenophobia, etc.).",
+          "- Violent, child pornography content, inciting violence or illegal activities.",
+          "- Malicious links (phishing, malware, spam), or any content contrary to IT security standards.",
+          "- Unsolicited advertising campaigns (spam), without respect for the recipient's prior consent.",
+          "- Defamatory, threatening, obscene content or harming the reputation of a person or a company.",
+          "<strong>5. Compliance with WhatsApp quotas and best practices:</strong> You agree to comply with the limitations and best practices defined by WhatsApp Business API. Any violation may result in the suspension of your account.",
+          "<strong>6. Security of Credentials:</strong> You are responsible for the security of your API keys and passwords."
+        ]
+      },
+      "intellectual_property": {
+        "title": "6. Intellectual Property",
+        "content": [
+          "<strong>1. Peelo Chat Property:</strong> All elements of the Platform are the exclusive property of Peelo Chat.",
+          "<strong>2. User Contents:</strong> You remain the sole holder of intellectual property rights relating to your contents."
+        ]
+      },
+      "privacy": {
+        "title": "7. Personal Data Processing and Protection",
+        "content": [
+          "<strong>1. Privacy Policy:</strong> Peelo Chat provides a separate privacy policy, accessible on the site.",
+          "<strong>2. GDPR Compliance:</strong> Peelo Chat undertakes to comply with the principles of the General Data Protection Regulation (GDPR).",
+          "<strong>3. Data Sharing:</strong> Peelo Chat only shares your data in strictly necessary cases (service providers, legal obligations, consent)."
+        ]
+      },
+      "acceptable_use": {
+        "title": "8. Acceptable Use and Best Practices",
+        "content": [
+          "<strong>1. Spam and Sending Limits:</strong> Spam is prohibited. Peelo Chat monitors blocking rates.",
+          "<strong>2. Message Quality:</strong> Messages must be clear and compliant with laws.",
+          "<strong>3. Limitation of Promotional Content:</strong> Advertisements require explicit opt-in."
+        ]
+      },
+      "liability": {
+        "title": "9. Liability and Warranties",
+        "content": [
+          "<strong>1. No Warranty:</strong> The Platform is provided \"as is\".",
+          "<strong>2. Limitation of Liability:</strong> Peelo Chat's liability is limited to the amount of sums paid in the last 12 months.",
+          "<strong>3. Indemnification:</strong> You agree to indemnify Peelo Chat for any claim related to your use."
+        ]
+      },
+      "termination": {
+        "title": "10. Suspension, Termination and Sanctions",
+        "content": [
+          "In case of violation of the Terms, Peelo Chat may suspend or terminate your account without notice."
+        ]
+      },
+      "changes": {
+        "title": "11. Evolution of Conditions",
+        "content": [
+          "Peelo Chat may modify these Terms at any time. Users will be notified."
+        ]
+      },
+      "logs": {
+        "title": "12. Data Ownership and Logs",
+        "content": [
+          "Peelo Chat retains activity logs in accordance with regulations."
+        ]
+      },
+      "misc": {
+        "title": "Miscellaneous Provisions",
+        "content": [
+          "<strong>1. Applicable Law:</strong> Senegalese law. Jurisdiction: Dakar.",
+          "<strong>2. Entire Agreement:</strong> These Terms constitute the entire agreement."
+        ]
+      },
+      "appendix": {
+        "title": "Appendix: WhatsApp Code of Conduct",
+        "content": [
+          "Limit sending rate.",
+          "Personalization and segmentation of messages.",
+          "Management of responses and unsubscribes.",
+          "Compliance with authorized sending hours."
+        ]
+      }
+    },
+  "faymaco": {
+    "hero": {
+      "badge": "New Product",
+      "title": "Stop chasing your clients to get paid.",
+      "subtitle_1": "Faymaco automates your reminders and payment collection directly on <0>WhatsApp</0>.",
+      "subtitle_2": "<0>Wave, Orange Money, Free Money</0> — without complex integration.",
+      "cta": "👉 Join the waiting list",
+      "priority_access": "Priority access for the first subscribers"
+    },
+    "simulator": {
+      "new_invoice": "New Invoice",
+      "invoice_desc": "Your invoice regarding your <0>Peelo</0> subscription is available. Pay securely here.",
+      "view_invoice": "View Invoice",
+      "amount_to_pay": "Amount to pay",
+      "amount": "15,000 FCFA",
+      "pay_now": "Pay Now",
+      "payment_validated": "Payment Validated!",
+      "payment_success_desc": "Your subscription has been successfully renewed.",
+      "continue": "Continue 👈",
+      "invoice_name": "Invoice_001.pdf",
+      "total": "Total"
+    },
+    "problem": {
+      "stripe_unavailable": "Stripe is not available in your country.",
+      "no_auto_debit": "Wave and Orange Money do not offer automatic direct debit.",
+      "manual_followup": "You send messages manually. You follow up. You wait. You forget.",
+      "recognize_yourself": "Does this sound familiar?",
+      "end_of_month": "So at the end of every month, what do you do?",
+      "clients_slip": "Some clients slip through the cracks.",
+      "one_two_clients": "One client, two clients — that's still okay.",
+      "when_scaling": "But when your business starts to scale?",
+      "manual_collection": "Manual collection becomes your biggest <0>bottleneck for growth</0>."
+    },
+    "how_it_works": {
+      "title": "Faymaco handles everything.",
+      "subtitle": "You just collect the cash.",
+      "step1_badge": "Step 1",
+      "step1_title": "D-3 before expiration",
+      "step1_desc": "Your client automatically receives their invoice on WhatsApp with a \"Pay Now\" button.",
+      "step2_badge": "Step 2",
+      "step2_title": "D-2, D-1 and D-Day",
+      "step2_desc": "A smart reminder is sent automatically. The client pays in 2 clicks via Wave or Orange Money.",
+      "step3_badge": "Step 3",
+      "step3_title": "Payment Confirmed",
+      "step3_desc": "The invoice is generated instantly. Access is maintained and you receive a notification.",
+      "step4_badge": "Step 4",
+      "step4_title": "No Payment",
+      "step4_desc": "A notification is sent automatically via webhook to suspend access.",
+      "you_touch_nothing": "You? You don't touch a thing."
+    },
+    "target": {
+      "title": "Faymaco is for you if...",
+      "point1": "You manage a SaaS or an application with a monthly subscription",
+      "point2": "You offer online training or courses with monthly installments",
+      "point3": "You are a clinic, agency, or firm with recurring retainers",
+      "point4": "You operate in Africa and traditional payment solutions don't work for you",
+      "point5": "You are tired of wasting time and money on manual follow-ups",
+      "conclusion": "If your business has subscribers, Faymaco works for you."
+    },
+    "other_uses": {
+      "badge": "⚡ OTHER USES",
+      "title": "Because Faymaco goes further",
+      "payment_request_title": "Instant Payment Request",
+      "payment_request_q": "Do you need to charge a client now, outside of a subscription?",
+      "payment_request_a": "You send a 1-click payment request directly from Faymaco. Your client receives the link on WhatsApp and pays in 2 minutes.",
+      "debt_collection_title": "Debt Collection",
+      "debt_collection_q": "A client has an overdue invoice for several weeks?",
+      "debt_collection_a": "You create a targeted manual reminder with a direct payment button. No need to call or send messages one by one.",
+      "installments_title": "Payment in Installments",
+      "installments_q": "Do you offer a service for 150,000 FCFA?",
+      "installments_a": "Faymaco can divide it into monthly installments and manage each due date automatically."
+    },
+    "waiting_list": {
+      "title": "The product is coming soon.",
+      "subtitle": "Be among the first to use it.",
+      "description": "Subscribers on the waiting list get priority access and will be the first notified at launch.",
+      "success_title": "Congratulations!",
+      "success_desc": "You are successfully registered on the waiting list. We will contact you very soon.",
+      "form_name": "Full Name",
+      "form_name_ph": "Your full name",
+      "form_email": "Email",
+      "form_email_ph": "Your email address",
+      "form_role": "Your Role",
+      "form_role_ph": "E.g., CEO, Developer, Sales...",
+      "form_company": "Company or Startup Name",
+      "form_company_ph": "The name of your organization",
+      "form_phone": "Phone / WhatsApp",
+      "form_phone_ph": "Number without country code",
+      "form_country": "Country of operation",
+      "form_country_ph": "Select a country...",
+      "form_activity": "Your Industry",
+      "form_activity_ph": "Select an industry...",
+      "activity_saas": "SaaS / Software",
+      "activity_formation": "Online Training / E-learning",
+      "activity_agency": "Agency / B2B Service",
+      "activity_clinic": "Clinic / Healthcare",
+      "activity_ecommerce": "E-commerce",
+      "activity_other": "Other",
+      "form_description": "Description of your business",
+      "form_description_ph": "How do you collect payments from your clients today?",
+      "submit_btn": "👉 I'm joining the waiting list",
+      "submitting_btn": "Registering...",
+      "no_spam": "No spam. Just a notification at launch."
+    }
+  }
+}

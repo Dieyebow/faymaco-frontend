@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.env
+
+# Images public/ gérées par script de déploiement
+public/*.png
+public/*.jpg
+public/*.jpeg
+public/*.webp
+public/*.svg
+public/*.gif
