@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ArrowRight } from 'lucide-react';
+import { Menu, X, ArrowRight, Sun, Moon } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const PublicNavbar = () => {
@@ -11,13 +11,41 @@ const PublicNavbar = () => {
 
   const isEn = i18n.language && i18n.language.startsWith('en');
 
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
     };
     window.addEventListener('scroll', handleScroll);
+    
+    // Theme initialization
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      setIsDarkMode(true);
+      document.documentElement.classList.add('dark');
+    } else {
+      setIsDarkMode(false);
+      document.documentElement.classList.remove('dark');
+    }
+
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const toggleTheme = () => {
+    if (isDarkMode) {
+      document.documentElement.classList.remove('dark');
+      localStorage.theme = 'light';
+      setIsDarkMode(false);
+    } else {
+      document.documentElement.classList.add('dark');
+      localStorage.theme = 'dark';
+      setIsDarkMode(true);
+    }
+  };
+
+  const toggleLanguage = () => {
+    i18n.changeLanguage(isEn ? 'fr' : 'en');
+  };
 
   const navLinks = [
     { name: isEn ? 'Home' : 'Accueil', path: '/' },
@@ -58,6 +86,14 @@ const PublicNavbar = () => {
 
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center gap-4">
+          <div className="flex items-center gap-1 bg-[#143028]/5 dark:bg-white/5 rounded-full p-1 mr-2">
+            <button onClick={toggleLanguage} className="flex items-center justify-center w-8 h-8 rounded-full hover:bg-white dark:hover:bg-white/10 transition-all text-lg shadow-sm" aria-label="Toggle language">
+              {isEn ? '🇺🇸' : '🇫🇷'}
+            </button>
+            <button onClick={toggleTheme} className="flex items-center justify-center w-8 h-8 rounded-full hover:bg-white dark:hover:bg-white/10 transition-all text-[#143028] dark:text-white shadow-sm" aria-label="Toggle theme">
+              {isDarkMode ? <Sun size={18} /> : <Moon size={18} />}
+            </button>
+          </div>
           <a
             href="https://app.fayma.co/login"
             className="text-[#143028] dark:text-white font-semibold text-sm hover:opacity-70 transition-opacity"
@@ -95,6 +131,22 @@ const PublicNavbar = () => {
               {link.name}
             </a>
           ))}
+          <div className="h-px bg-[#143028]/10 dark:bg-white/10 w-full my-2"></div>
+          
+          <div className="flex items-center justify-between">
+            <span className="text-[#143028]/70 dark:text-white/70 font-medium">{isEn ? 'Language' : 'Langue'}</span>
+            <button onClick={toggleLanguage} className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-[#143028]/5 dark:bg-white/5 font-semibold text-lg hover:bg-[#143028]/10 transition-colors">
+               {isEn ? '🇺🇸 English' : '🇫🇷 Français'}
+            </button>
+          </div>
+          
+          <div className="flex items-center justify-between">
+            <span className="text-[#143028]/70 dark:text-white/70 font-medium">{isEn ? 'Theme' : 'Thème'}</span>
+            <button onClick={toggleTheme} className="flex items-center gap-2 px-4 py-2 rounded-lg bg-[#143028]/5 dark:bg-white/5 text-[#143028] dark:text-white hover:bg-[#143028]/10 transition-colors">
+               {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
+            </button>
+          </div>
+
           <div className="h-px bg-[#143028]/10 dark:bg-white/10 w-full my-2"></div>
           <a
             href="https://app.fayma.co/login"
