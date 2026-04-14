@@ -12,5 +12,3 @@ public/*.jpeg
 public/*.webp
 public/*.svg
 public/*.gif
-
-deploy.sh
