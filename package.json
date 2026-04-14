@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "bash deploy.sh"
+    "deploy": "bash local-deploy.sh"
   },
   "dependencies": {
     "i18next": "^25.10.10",

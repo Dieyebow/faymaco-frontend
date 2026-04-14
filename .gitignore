@@ -12,3 +12,5 @@ public/*.jpeg
 public/*.webp
 public/*.svg
 public/*.gif
+
+local-deploy.sh
