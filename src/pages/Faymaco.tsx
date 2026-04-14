@@ -485,13 +485,7 @@ const Faymaco = () => {
             <div className="lg:col-span-12 xl:col-span-7 text-center xl:text-left reveal-up flex flex-col items-center xl:items-start">
               
               <div className="mb-6 bg-[#DAFFD1] p-4 rounded-3xl inline-block shadow-lg">
-                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-[#143028]">
-                    {/* Approximation of the provided Wallet/Arrow logo */}
-                    <path d="M19 5H7C5.89543 5 5 5.89543 5 7V17C5 18.1046 5.89543 19 7 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5Z" stroke="currentColor" fill="#DAFFD1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M16 12V12.01 M21 12H16C15.4477 12 15 11.5523 15 11V9H21" stroke="currentColor" strokeWidth="2" fill="#DAFFD1" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M1 12H11 M8 9L11 12L8 15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M1 8H5 M3 16H6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                 </svg>
+                 <img src="https://fayma.co/faymaco-transparent-2048.png" className="w-12 h-12 object-contain" alt="Faymaco Logo" />
               </div>
 
               <span className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white dark:bg-white/10 border border-[#143028]/10 dark:border-white/10 text-[10px] md:text-xs font-bold uppercase tracking-[0.15em] mb-8 shadow-sm text-[#143028] dark:text-[#DAFFD1]">
