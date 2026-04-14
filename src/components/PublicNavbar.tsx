@@ -37,7 +37,7 @@ const PublicNavbar = () => {
       <div className="max-w-[1400px] mx-auto px-5 md:px-10 lg:px-12 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 group">
-           <img src="https://app.fayma.co/faymaco-transparent-2048.png" alt="Faymaco Logo" className="w-8 h-8 object-contain dark:saturate-0" />
+           <img src="https://fayma.co/faymaco-transparent-2048.png" alt="Faymaco Logo" className="w-8 h-8 object-contain dark:saturate-0" />
            <span className="text-xl font-bold tracking-tight text-[#143028] dark:text-white">
              Faymaco
            </span>
