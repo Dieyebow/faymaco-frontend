@@ -908,7 +908,7 @@ const Faymaco = () => {
       {/* Footer */}
       <footer className="bg-[#143028] text-white py-8 px-5">
         <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/50">
-          <p>© {new Date().getFullYear()} Faymaco by Fayko. Tous droits réservés.</p>
+          <p>© {new Date().getFullYear()} Fayma.co by Peelo. Tous droits réservés.</p>
           <div className="flex items-center gap-6">
             <Link to="/cgu" className="hover:text-white transition-colors">
               Conditions d'utilisation
