@@ -540,8 +540,8 @@
       "title": "Stop chasing your clients to get paid.",
       "subtitle_1": "Faymaco automates your reminders and payment collection directly on <0>WhatsApp</0>.",
       "subtitle_2": "<0>Wave, Orange Money, Free Money</0> — without complex integration.",
-      "cta": "👉 Join the waiting list",
-      "priority_access": "Priority access for the first subscribers"
+      "cta": "Request Access",
+      "priority_access": "Access by invitation — every profile is reviewed"
     },
     "simulator": {
       "new_invoice": "New Invoice",
@@ -606,12 +606,12 @@
       "installments_q": "Do you offer a service for 150,000 FCFA?",
       "installments_a": "Faymaco can divide it into monthly installments and manage each due date automatically."
     },
-    "waiting_list": {
-      "title": "The product is coming soon.",
-      "subtitle": "Be among the first to use it.",
-      "description": "Subscribers on the waiting list get priority access and will be the first notified at launch.",
-      "success_title": "Congratulations!",
-      "success_desc": "You are successfully registered on the waiting list. We will contact you very soon.",
+    "request_access": {
+      "title": "Access by invitation only.",
+      "subtitle": "Faymaco is not yet open to the public.",
+      "description": "Submit your access request. Our team reviews each profile and contacts you personally if your use case is a match.",
+      "success_title": "Request submitted.",
+      "success_desc": "Your profile is under review. You will be contacted personally if your use case matches Faymaco.",
       "form_name": "Full Name",
       "form_name_ph": "Your full name",
       "form_email": "Email",
@@ -634,9 +634,9 @@
       "activity_other": "Other",
       "form_description": "Description of your business",
       "form_description_ph": "How do you collect payments from your clients today?",
-      "submit_btn": "👉 I'm joining the waiting list",
-      "submitting_btn": "Registering...",
-      "no_spam": "No spam. Just a notification at launch."
+      "submit_btn": "Submit my access request",
+      "submitting_btn": "Sending...",
+      "no_spam": "Every request is reviewed manually. We get back to you within 48h."
     }
   }
 }

@@ -542,8 +542,8 @@
       "title": "Arrête de courir après tes clients pour te faire payer.",
       "subtitle_1": "Faymaco automatise tes relances et ton recouvrement directement sur <0>WhatsApp</0>.",
       "subtitle_2": "<0>Wave, Orange Money, Free Money</0> — sans intégration complexe.",
-      "cta": "👉 Rejoindre la waiting list",
-      "priority_access": "Accès prioritaire pour les premiers inscrits"
+      "cta": "Demander l'accès",
+      "priority_access": "Accès sur invitation — chaque profil est examiné"
     },
     "simulator": {
       "new_invoice": "Nouvelle Facture",
@@ -608,12 +608,12 @@
       "installments_q": "Tu proposes un service à 150 000 FCFA ?",
       "installments_a": "Faymaco peut découper en mensualités et gérer chaque échéance automatiquement."
     },
-    "waiting_list": {
-      "title": "Le produit arrive bientôt.",
-      "subtitle": "Sois parmi les premiers à l'utiliser.",
-      "description": "Les inscrits sur la waiting list obtiennent un accès prioritaire et seront les premiers notifiés au lancement.",
-      "success_title": "Félicitations !",
-      "success_desc": "Tu es bien inscrit(e) sur la liste d'attente. Nous te contacterons très prochainement.",
+    "request_access": {
+      "title": "Accès sur invitation.",
+      "subtitle": "Faymaco n'est pas encore ouvert au public.",
+      "description": "Soumets ta demande d'accès. Notre équipe examine chaque profil et te contacte personnellement si ton usage correspond.",
+      "success_title": "Demande envoyée.",
+      "success_desc": "Ton profil est en cours d'examen. Tu seras contacté(e) personnellement si ton usage correspond à Faymaco.",
       "form_name": "Nom complet",
       "form_name_ph": "Ton nom complet",
       "form_email": "Email",
@@ -636,9 +636,9 @@
       "activity_other": "Autre",
       "form_description": "Description de ton business",
       "form_description_ph": "Comment encaisses-tu tes clients aujourd'hui ?",
-      "submit_btn": "👉 Je rejoins la waiting list",
-      "submitting_btn": "Inscription...",
-      "no_spam": "Pas de spam. Juste une notification au lancement."
+      "submit_btn": "Soumettre ma demande d'accès",
+      "submitting_btn": "Envoi en cours...",
+      "no_spam": "Chaque demande est examinée manuellement. Nous revenons vers toi sous 48h."
     }
   }
 }

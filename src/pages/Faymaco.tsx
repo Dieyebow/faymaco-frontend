@@ -443,7 +443,8 @@ const Faymaco = () => {
         entreprise: formData.entreprise,
         pays_exercice: formData.pays_exercice,
         activite: formData.activite,
-        description: formData.description
+        description: formData.description,
+        tag: 'request_access'
       };
 
       const response = await fetch(apiUrl, {
@@ -510,7 +511,7 @@ const Faymaco = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row flex-wrap justify-center xl:justify-start items-center gap-4 md:gap-6 mt-4">
-                <a href="#waiting-list" className="w-full sm:w-auto bg-[#143028] dark:bg-[#DAFFD1] text-white dark:text-[#143028] px-12 md:px-16 py-4 md:py-6 rounded-full text-[11px] md:text-[13px] font-black uppercase tracking-[0.2em] shadow-xl hover:scale-105 transition-transform duration-300 flex items-center justify-center gap-4">
+                <a href="#request-access" className="w-full sm:w-auto bg-[#143028] dark:bg-[#DAFFD1] text-white dark:text-[#143028] px-12 md:px-16 py-4 md:py-6 rounded-full text-[11px] md:text-[13px] font-black uppercase tracking-[0.2em] shadow-xl hover:scale-105 transition-transform duration-300 flex items-center justify-center gap-4">
                   {t('faymaco.hero.cta')} <ArrowRight className="w-5 h-5 ml-2" />
                 </a>
               </div>
@@ -720,15 +721,15 @@ const Faymaco = () => {
       </section>
 
       {/* Waiting List Form Selection */}
-      <section id="waiting-list" className="py-20 md:py-32 px-5 md:px-10 lg:px-12 bg-white dark:bg-[#0A1A14] border-t border-[#143028]/5 dark:border-white/5 relative">
+      <section id="request-access" className="py-20 md:py-32 px-5 md:px-10 lg:px-12 bg-white dark:bg-[#0A1A14] border-t border-[#143028]/5 dark:border-white/5 relative">
         <div className="max-w-[800px] mx-auto relative z-10">
           <div className="text-center mb-12 reveal-up">
             <h2 className="text-4xl sm:text-6xl font-medium tracking-tighter text-[#143028] dark:text-white leading-[1] mb-6 flex flex-col gap-3 sm:gap-5">
-              <span>{t('faymaco.waiting_list.title')}</span>
-              <span className="italic text-2xl sm:text-3xl lg:text-4xl text-[#143028]/40 dark:text-white/40 mb-2">{t('faymaco.waiting_list.subtitle')}</span>
+              <span>{t('faymaco.request_access.title')}</span>
+              <span className="italic text-2xl sm:text-3xl lg:text-4xl text-[#143028]/40 dark:text-white/40 mb-2">{t('faymaco.request_access.subtitle')}</span>
             </h2>
             <p className="text-lg md:text-xl text-[#143028]/60 dark:text-white/60 font-medium">
-              {t('faymaco.waiting_list.description')}
+              {t('faymaco.request_access.description')}
             </p>
           </div>
 
@@ -738,15 +739,15 @@ const Faymaco = () => {
                    <div className="w-20 h-20 rounded-full bg-[#DAFFD1] mx-auto flex items-center justify-center mb-6">
                       <CheckCircle2 size={40} className="text-[#143028]" />
                    </div>
-                   <h3 className="text-3xl font-bold text-[#143028] dark:text-white mb-4">{t('faymaco.waiting_list.success_title')}</h3>
-                   <p className="text-lg text-[#143028]/70 dark:text-white/70">{t('faymaco.waiting_list.success_desc')}</p>
+                   <h3 className="text-3xl font-bold text-[#143028] dark:text-white mb-4">{t('faymaco.request_access.success_title')}</h3>
+                   <p className="text-lg text-[#143028]/70 dark:text-white/70">{t('faymaco.request_access.success_desc')}</p>
                 </div>
              ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label className="flex items-center gap-1.5 text-sm font-bold text-[#143028] dark:text-white mb-2 uppercase tracking-widest text-[10px]">
-                        <User size={14} className="text-[#143028]/60 dark:text-white/60"/> {t('faymaco.waiting_list.form_name')}
+                        <User size={14} className="text-[#143028]/60 dark:text-white/60"/> {t('faymaco.request_access.form_name')}
                       </label>
                       <input 
                         type="text" 
@@ -755,12 +756,12 @@ const Faymaco = () => {
                         value={formData.nom_complet}
                         onChange={handleChange}
                         className="w-full bg-white dark:bg-[#0A1A14] border border-[#143028]/10 dark:border-white/10 rounded-xl px-4 py-3 text-[#143028] dark:text-white focus:outline-none focus:ring-2 focus:ring-[#DAFFD1]"
-                        placeholder={t('faymaco.waiting_list.form_name_ph')}
+                        placeholder={t('faymaco.request_access.form_name_ph')}
                       />
                     </div>
                     <div>
                       <label className="flex items-center gap-1.5 text-sm font-bold text-[#143028] dark:text-white mb-2 uppercase tracking-widest text-[10px]">
-                        <Mail size={14} className="text-[#143028]/60 dark:text-white/60"/> {t('faymaco.waiting_list.form_email')}
+                        <Mail size={14} className="text-[#143028]/60 dark:text-white/60"/> {t('faymaco.request_access.form_email')}
                       </label>
                       <input 
                         type="email" 
@@ -769,7 +770,7 @@ const Faymaco = () => {
                         value={formData.email}
                         onChange={handleChange}
                         className="w-full bg-white dark:bg-[#0A1A14] border border-[#143028]/10 dark:border-white/10 rounded-xl px-4 py-3 text-[#143028] dark:text-white focus:outline-none focus:ring-2 focus:ring-[#DAFFD1]"
-                        placeholder={t('faymaco.waiting_list.form_email_ph')}
+                        placeholder={t('faymaco.request_access.form_email_ph')}
                       />
                     </div>
                   </div>
@@ -777,7 +778,7 @@ const Faymaco = () => {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label className="flex items-center gap-1.5 text-sm font-bold text-[#143028] dark:text-white mb-2 uppercase tracking-widest text-[10px]">
-                        <User size={14} className="text-[#143028]/60 dark:text-white/60"/> {t('faymaco.waiting_list.form_role')}
+                        <User size={14} className="text-[#143028]/60 dark:text-white/60"/> {t('faymaco.request_access.form_role')}
                       </label>
                       <input 
                         type="text" 
@@ -786,12 +787,12 @@ const Faymaco = () => {
                         value={formData.role}
                         onChange={handleChange}
                         className="w-full bg-white dark:bg-[#0A1A14] border border-[#143028]/10 dark:border-white/10 rounded-xl px-4 py-3 text-[#143028] dark:text-white focus:outline-none focus:ring-2 focus:ring-[#DAFFD1]"
-                        placeholder={t('faymaco.waiting_list.form_role_ph')}
+                        placeholder={t('faymaco.request_access.form_role_ph')}
                       />
                     </div>
                     <div>
                       <label className="flex items-center gap-1.5 text-sm font-bold text-[#143028] dark:text-white mb-2 uppercase tracking-widest text-[10px]">
-                        <Building2 size={14} className="text-[#143028]/60 dark:text-white/60"/> {t('faymaco.waiting_list.form_company')}
+                        <Building2 size={14} className="text-[#143028]/60 dark:text-white/60"/> {t('faymaco.request_access.form_company')}
                       </label>
                       <input 
                         type="text" 
@@ -800,14 +801,14 @@ const Faymaco = () => {
                         value={formData.entreprise}
                         onChange={handleChange}
                         className="w-full bg-white dark:bg-[#0A1A14] border border-[#143028]/10 dark:border-white/10 rounded-xl px-4 py-3 text-[#143028] dark:text-white focus:outline-none focus:ring-2 focus:ring-[#DAFFD1]"
-                        placeholder={t('faymaco.waiting_list.form_company_ph')}
+                        placeholder={t('faymaco.request_access.form_company_ph')}
                       />
                     </div>
                   </div>
                   
                   <div>
                     <label className="flex items-center gap-1.5 text-sm font-bold text-[#143028] dark:text-white mb-2 uppercase tracking-widest text-[10px]">
-                      <Phone size={14} className="text-[#143028]/60 dark:text-white/60"/> {t('faymaco.waiting_list.form_phone')}
+                      <Phone size={14} className="text-[#143028]/60 dark:text-white/60"/> {t('faymaco.request_access.form_phone')}
                     </label>
                     <div className="flex gap-3">
                       <SearchableSelect
@@ -828,7 +829,7 @@ const Faymaco = () => {
                         value={formData.whatsapp_number}
                         onChange={handleChange}
                         className="flex-1 bg-white dark:bg-[#0A1A14] border border-[#143028]/10 dark:border-white/10 rounded-xl px-4 py-3 text-[#143028] dark:text-white focus:outline-none focus:ring-2 focus:ring-[#DAFFD1]"
-                        placeholder={t('faymaco.waiting_list.form_phone_ph')}
+                        placeholder={t('faymaco.request_access.form_phone_ph')}
                       />
                     </div>
                   </div>
@@ -836,14 +837,14 @@ const Faymaco = () => {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label className="flex items-center gap-1.5 text-sm font-bold text-[#143028] dark:text-white mb-2 uppercase tracking-widest text-[10px]">
-                        <Globe size={14} className="text-[#143028]/60 dark:text-white/60"/> {t('faymaco.waiting_list.form_country')}
+                        <Globe size={14} className="text-[#143028]/60 dark:text-white/60"/> {t('faymaco.request_access.form_country')}
                       </label>
                       <SearchableSelect
                         name="pays_exercice"
                         options={COUNTRIES}
                         value={formData.pays_exercice}
                         onChange={(val) => setFormData({ ...formData, pays_exercice: val })}
-                        placeholder={t('faymaco.waiting_list.form_country_ph')}
+                        placeholder={t('faymaco.request_access.form_country_ph')}
                         displayKey="name"
                         valueKey="name"
                         searchKeys={['name']}
@@ -852,7 +853,7 @@ const Faymaco = () => {
                     </div>
                     <div>
                       <label className="flex items-center gap-1.5 text-sm font-bold text-[#143028] dark:text-white mb-2 uppercase tracking-widest text-[10px]">
-                        <Layers size={14} className="text-[#143028]/60 dark:text-white/60"/> {t('faymaco.waiting_list.form_activity')}
+                        <Layers size={14} className="text-[#143028]/60 dark:text-white/60"/> {t('faymaco.request_access.form_activity')}
                       </label>
                       <select 
                         name="activite"
@@ -861,20 +862,20 @@ const Faymaco = () => {
                       onChange={handleChange}
                       className="w-full bg-white dark:bg-[#0A1A14] border border-[#143028]/10 dark:border-white/10 rounded-xl px-4 py-3 text-[#143028] dark:text-white focus:outline-none focus:ring-2 focus:ring-[#DAFFD1] appearance-none"
                     >
-                      <option value="" disabled>{t('faymaco.waiting_list.form_activity_ph')}</option>
-                      <option value="SaaS">{t('faymaco.waiting_list.activity_saas')}</option>
-                      <option value="Formation">{t('faymaco.waiting_list.activity_formation')}</option>
-                      <option value="Agence">{t('faymaco.waiting_list.activity_agency')}</option>
-                      <option value="Clinique">{t('faymaco.waiting_list.activity_clinic')}</option>
-                      <option value="E-commerce">{t('faymaco.waiting_list.activity_ecommerce')}</option>
-                      <option value="Autre">{t('faymaco.waiting_list.activity_other')}</option>
+                      <option value="" disabled>{t('faymaco.request_access.form_activity_ph')}</option>
+                      <option value="SaaS">{t('faymaco.request_access.activity_saas')}</option>
+                      <option value="Formation">{t('faymaco.request_access.activity_formation')}</option>
+                      <option value="Agence">{t('faymaco.request_access.activity_agency')}</option>
+                      <option value="Clinique">{t('faymaco.request_access.activity_clinic')}</option>
+                      <option value="E-commerce">{t('faymaco.request_access.activity_ecommerce')}</option>
+                      <option value="Autre">{t('faymaco.request_access.activity_other')}</option>
                     </select>
                   </div>
                 </div>
 
                 <div>
                   <label className="flex items-center gap-1.5 text-sm font-bold text-[#143028] dark:text-white mb-2 uppercase tracking-widest text-[10px]">
-                    <FileText size={14} className="text-[#143028]/60 dark:text-white/60"/> {t('faymaco.waiting_list.form_description')}
+                    <FileText size={14} className="text-[#143028]/60 dark:text-white/60"/> {t('faymaco.request_access.form_description')}
                     </label>
                     <textarea 
                       name="description"
@@ -883,7 +884,7 @@ const Faymaco = () => {
                       onChange={handleChange}
                       rows={3}
                       className="w-full bg-white dark:bg-[#0A1A14] border border-[#143028]/10 dark:border-white/10 rounded-xl px-4 py-3 text-[#143028] dark:text-white focus:outline-none focus:ring-2 focus:ring-[#DAFFD1] resize-none"
-                      placeholder={t('faymaco.waiting_list.form_description_ph')}
+                      placeholder={t('faymaco.request_access.form_description_ph')}
                     ></textarea>
                   </div>
 
@@ -893,10 +894,10 @@ const Faymaco = () => {
                       disabled={isSubmitting}
                       className="w-full sm:w-auto bg-[#143028] dark:bg-[#DAFFD1] text-white dark:text-[#143028] px-12 py-5 rounded-full text-[12px] md:text-[14px] font-black uppercase tracking-[0.2em] shadow-xl hover:scale-105 transition-all disabled:opacity-70 disabled:cursor-not-allowed"
                     >
-                      {isSubmitting ? t('faymaco.waiting_list.submitting_btn') : t('faymaco.waiting_list.submit_btn')}
+                      {isSubmitting ? t('faymaco.request_access.submitting_btn') : t('faymaco.request_access.submit_btn')}
                     </button>
                     <p className="mt-4 text-[10px] font-bold text-[#143028]/40 dark:text-white/40 uppercase tracking-widest italic">
-                      {t('faymaco.waiting_list.no_spam')}
+                      {t('faymaco.request_access.no_spam')}
                     </p>
                   </div>
                 </form>

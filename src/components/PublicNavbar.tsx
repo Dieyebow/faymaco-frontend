@@ -95,16 +95,10 @@ const PublicNavbar = () => {
             </button>
           </div>
           <a
-            href="https://app.fayma.co/login"
-            className="text-[#143028] dark:text-white font-semibold text-sm hover:opacity-70 transition-opacity"
-          >
-            {isEn ? 'Login' : 'Connexion'}
-          </a>
-          <a
-            href="/#waiting-list"
+            href="/#request-access"
             className="bg-[#143028] dark:bg-[#DAFFD1] text-white dark:text-[#143028] px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider shadow-sm hover:scale-105 transition-transform flex items-center gap-2"
           >
-            {isEn ? 'Waiting List' : "Liste d'attente"}
+            {isEn ? 'Request Access' : "Demander l'accès"}
             <ArrowRight size={14} />
           </a>
         </div>
@@ -149,18 +143,11 @@ const PublicNavbar = () => {
 
           <div className="h-px bg-[#143028]/10 dark:bg-white/10 w-full my-2"></div>
           <a
-            href="https://app.fayma.co/login"
-            onClick={() => setMobileMenuOpen(false)}
-            className="text-[#143028] dark:text-white font-semibold text-lg"
-          >
-            {isEn ? 'Login' : 'Connexion'}
-          </a>
-          <a
-            href="/#waiting-list"
+            href="/#request-access"
             onClick={() => setMobileMenuOpen(false)}
             className="bg-[#143028] dark:bg-[#DAFFD1] text-white dark:text-[#143028] px-5 py-3.5 rounded-xl text-center text-sm font-bold uppercase tracking-wider shadow-md flex justify-center items-center gap-2"
           >
-            {isEn ? 'Pre-register now' : "Se pré-inscrire maintenant"}
+            {isEn ? 'Request Access' : "Demander l'accès"}
             <ArrowRight size={16} />
           </a>
         </div>
