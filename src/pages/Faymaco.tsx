@@ -8,6 +8,13 @@ import {
 import WhatsAppSimulator from '../components/WhatsAppSimulator';
 import PublicNavbar from '../components/PublicNavbar';
 
+const BrandName = () => (
+  <span className="inline-flex items-center tracking-tight">
+    <span className="text-inherit lowercase">fayma</span>
+    <span className="ml-[2px] text-[#143028] dark:text-[#DAFFD1] lowercase">co</span>
+  </span>
+);
+
 const COUNTRIES = [
   { name: 'Afghanistan', flag: '🇦🇫', dial_code: '+93' },
   { name: 'Albania', flag: '🇦🇱', dial_code: '+355' },
@@ -499,7 +506,10 @@ const Faymaco = () => {
                 <p>
                   <Trans 
                     i18nKey="faymaco.hero.subtitle_1"
-                    components={[<strong className="font-bold underline decoration-[#143028] dark:decoration-[#DAFFD1] text-[#143028] dark:text-white not-italic underline-offset-8" />]}
+                    components={{
+                      0: <strong className="font-bold underline decoration-[#143028] dark:decoration-[#DAFFD1] text-[#143028] dark:text-white not-italic underline-offset-8" />,
+                      brand: <BrandName />
+                    }}
                   />
                 </p>
                 <p>
@@ -577,7 +587,7 @@ const Faymaco = () => {
         <div className="max-w-[1400px] mx-auto">
           <div className="text-center mb-24 md:mb-32 lg:mb-40 reveal-up">
             <h2 className="text-4xl lg:text-7xl font-medium tracking-tighter text-[#143028] dark:text-white leading-[1.1]">
-              <Trans i18nKey="faymaco.how_it_works.title">Faymaco gère tout.</Trans><br />
+              <Trans i18nKey="faymaco.how_it_works.title" components={{ brand: <BrandName /> }} /><br />
               <span className="italic text-[#143028]/50 dark:text-white/50">{t('faymaco.how_it_works.subtitle')}</span>
             </h2>
           </div>
@@ -647,7 +657,7 @@ const Faymaco = () => {
          </div>
          <div className="max-w-[1200px] mx-auto relative z-10">
             <h2 className="text-3xl sm:text-5xl lg:text-7xl font-medium tracking-tighter leading-[1] mb-16 text-center reveal-up">
-              {t('faymaco.target.title')}
+              <Trans i18nKey="faymaco.target.title" components={{ brand: <BrandName /> }} />
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto">
@@ -671,7 +681,7 @@ const Faymaco = () => {
 
             <div className="mt-20 text-center reveal-up">
               <p className="text-xl md:text-3xl font-medium italic text-[#DAFFD1]">
-                {t('faymaco.target.conclusion')}
+                <Trans i18nKey="faymaco.target.conclusion" components={{ brand: <BrandName /> }} />
               </p>
             </div>
          </div>
@@ -685,7 +695,7 @@ const Faymaco = () => {
                 {t('faymaco.other_uses.badge')}
               </span>
               <h2 className="text-3xl sm:text-5xl lg:text-6xl font-medium tracking-tighter text-[#143028] dark:text-white leading-[1.1]">
-                {t('faymaco.other_uses.title')}
+                <Trans i18nKey="faymaco.other_uses.title" components={{ brand: <BrandName /> }} />
               </h2>
             </div>
 
@@ -696,7 +706,7 @@ const Faymaco = () => {
                   </div>
                   <h3 className="text-2xl font-bold text-[#143028] dark:text-white mb-4">{t('faymaco.other_uses.payment_request_title')}</h3>
                   <p className="text-[#143028]/70 dark:text-white/70 font-medium leading-relaxed mb-4">{t('faymaco.other_uses.payment_request_q')}</p>
-                  <p className="text-[#143028]/70 dark:text-white/70 font-medium leading-relaxed italic text-sm">{t('faymaco.other_uses.payment_request_a')}</p>
+                  <p className="text-[#143028]/70 dark:text-white/70 font-medium leading-relaxed italic text-sm"><Trans i18nKey="faymaco.other_uses.payment_request_a" components={{ brand: <BrandName /> }} /></p>
                </div>
                
                <div className="bg-[#143028] rounded-[2.5rem] p-8 md:p-12 shadow-xl border border-transparent reveal-up hover:-translate-y-2 transition-transform duration-300" style={{ animationDelay: '0.1s' }}>
@@ -714,7 +724,7 @@ const Faymaco = () => {
                   </div>
                   <h3 className="text-2xl font-bold text-[#143028] dark:text-white mb-4">{t('faymaco.other_uses.installments_title')}</h3>
                   <p className="text-[#143028]/70 dark:text-white/70 font-medium leading-relaxed mb-4">{t('faymaco.other_uses.installments_q')}</p>
-                  <p className="text-[#143028]/70 dark:text-white/70 font-medium leading-relaxed italic text-sm">{t('faymaco.other_uses.installments_a')}</p>
+                  <p className="text-[#143028]/70 dark:text-white/70 font-medium leading-relaxed italic text-sm"><Trans i18nKey="faymaco.other_uses.installments_a" components={{ brand: <BrandName /> }} /></p>
                </div>
             </div>
          </div>
@@ -726,7 +736,7 @@ const Faymaco = () => {
           <div className="text-center mb-12 reveal-up">
             <h2 className="text-4xl sm:text-6xl font-medium tracking-tighter text-[#143028] dark:text-white leading-[1] mb-6 flex flex-col gap-3 sm:gap-5">
               <span>{t('faymaco.request_access.title')}</span>
-              <span className="italic text-2xl sm:text-3xl lg:text-4xl text-[#143028]/40 dark:text-white/40 mb-2">{t('faymaco.request_access.subtitle')}</span>
+              <span className="italic text-2xl sm:text-3xl lg:text-4xl text-[#143028]/40 dark:text-white/40 mb-2"><Trans i18nKey="faymaco.request_access.subtitle" components={{ brand: <BrandName /> }} /></span>
             </h2>
             <p className="text-lg md:text-xl text-[#143028]/60 dark:text-white/60 font-medium">
               {t('faymaco.request_access.description')}
@@ -740,7 +750,7 @@ const Faymaco = () => {
                       <CheckCircle2 size={40} className="text-[#143028]" />
                    </div>
                    <h3 className="text-3xl font-bold text-[#143028] dark:text-white mb-4">{t('faymaco.request_access.success_title')}</h3>
-                   <p className="text-lg text-[#143028]/70 dark:text-white/70">{t('faymaco.request_access.success_desc')}</p>
+                   <p className="text-lg text-[#143028]/70 dark:text-white/70"><Trans i18nKey="faymaco.request_access.success_desc" components={{ brand: <BrandName /> }} /></p>
                 </div>
              ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -909,7 +919,7 @@ const Faymaco = () => {
       {/* Footer */}
       <footer className="bg-[#143028] text-white py-8 px-5">
         <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/50">
-          <p>© {new Date().getFullYear()} Fayma.co by Peelo. Tous droits réservés.</p>
+          <p>© {new Date().getFullYear()} <BrandName /> by Peelo. Tous droits réservés.</p>
           <div className="flex items-center gap-6">
             <Link to="/cgu" className="hover:text-white transition-colors">
               Conditions d'utilisation
