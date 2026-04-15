@@ -33,7 +33,7 @@ async function processImages() {
         width: metadata.width,
         height: metadata.height,
         channels: 4,
-        background: { r: 218, g: 255, b: 209, alpha: 1 } // #DAFFD1
+        background: { r: 255, g: 255, b: 255, alpha: 1 } // #FFFFFF
       }
     })
     .composite([
