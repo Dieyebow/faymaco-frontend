@@ -66,8 +66,9 @@ const PublicNavbar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 group">
            <img src="https://fayma.co/faymaco-transparent-2048.png" alt="Faymaco Logo" className="w-8 h-8 object-contain dark:saturate-0" />
-           <span className="text-xl font-bold tracking-tight text-[#143028] dark:text-white">
-             Faymaco
+           <span className="text-xl font-bold tracking-tight flex items-center">
+             <span className="text-black dark:text-white">fayma</span>
+             <span className="ml-[2px] text-[#143028] dark:text-[#DAFFD1]">co</span>
            </span>
         </Link>
 
