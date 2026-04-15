@@ -55,6 +55,17 @@
     animation: revealUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
 
+  .brand-co {
+    color: #059669; /* Emerald 600 for visibility in light mode */
+  }
+
+  .dark .brand-co, 
+  [data-theme='dark'] .brand-co, 
+  footer .brand-co,
+  .bg-\[\#143028\] .brand-co {
+    color: #DAFFD1 !important;
+  }
+
   .mask-stadium {
     clip-path: inset(0 0 0 0 round 6rem);
   }

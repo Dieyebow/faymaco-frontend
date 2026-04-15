@@ -68,7 +68,7 @@ const PublicNavbar = () => {
            <img src="https://fayma.co/faymaco-transparent-2048.png" alt="Faymaco Logo" className="w-8 h-8 object-contain dark:saturate-0" />
            <span className="text-xl font-bold tracking-tight flex items-center">
              <span className="text-black dark:text-white">fayma</span>
-             <span className="ml-[2px] text-[#DAFFD1]">co</span>
+             <span className="ml-[2px] brand-co">co</span>
            </span>
         </Link>
 

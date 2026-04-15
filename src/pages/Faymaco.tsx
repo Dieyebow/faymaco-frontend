@@ -11,7 +11,7 @@ import PublicNavbar from '../components/PublicNavbar';
 const BrandName = () => (
   <span className="inline-flex items-center tracking-tight mr-[0.25em]">
     <span className="text-inherit lowercase">fayma</span>
-    <span className="ml-[2px] text-[#DAFFD1] lowercase">co</span>
+    <span className="ml-[2px] brand-co lowercase">co</span>
   </span>
 );
 
