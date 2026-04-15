@@ -718,6 +718,27 @@ const Faymaco = () => {
               </h2>
             </div>
 
+            <div className="flex flex-col sm:flex-row gap-4 mb-12 reveal-up">
+              <div className="flex-1 flex items-center gap-3 px-6 py-4 rounded-2xl bg-[#143028] text-white">
+                <div className="w-8 h-8 rounded-full bg-[#DAFFD1] flex items-center justify-center shrink-0">
+                  <CalendarDays size={15} className="text-[#143028]" />
+                </div>
+                <div>
+                  <p className="text-[10px] font-black uppercase tracking-widest text-[#DAFFD1]/60 mb-0.5">{t('faymaco.other_uses.type_recurring_badge')}</p>
+                  <p className="text-sm font-semibold">{t('faymaco.other_uses.type_recurring_desc')}</p>
+                </div>
+              </div>
+              <div className="flex-1 flex items-center gap-3 px-6 py-4 rounded-2xl bg-white dark:bg-white/5 border border-[#143028]/10 dark:border-white/10">
+                <div className="w-8 h-8 rounded-full bg-[#DAFFD1] flex items-center justify-center shrink-0">
+                  <ZapIcon size={15} className="text-[#143028]" />
+                </div>
+                <div>
+                  <p className="text-[10px] font-black uppercase tracking-widest text-[#143028]/40 dark:text-white/40 mb-0.5">{t('faymaco.other_uses.type_onetime_badge')}</p>
+                  <p className="text-sm font-semibold text-[#143028] dark:text-white">{t('faymaco.other_uses.type_onetime_desc')}</p>
+                </div>
+              </div>
+            </div>
+
             <div className="grid lg:grid-cols-3 gap-8">
                <div className="bg-white dark:bg-white/5 rounded-[2.5rem] p-8 md:p-12 shadow-xl border border-[#143028]/5 dark:border-white/10 reveal-up hover:-translate-y-2 transition-transform duration-300">
                   <div className="w-14 h-14 rounded-2xl bg-[#DAFFD1] flex items-center justify-center mb-8">

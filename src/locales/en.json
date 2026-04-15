@@ -602,6 +602,10 @@
     "other_uses": {
       "badge": "⚡ OTHER USES",
       "title": "Because <0/> goes further",
+      "type_recurring_badge": "Recurring subscription",
+      "type_recurring_desc": "Monthly plans, SaaS, retainers — Faymaco automatically reminds and collects every due date.",
+      "type_onetime_badge": "One-time request",
+      "type_onetime_desc": "Single invoice, deposit, balance — send a payment request in one click.",
       "payment_request_title": "Instant Payment Request",
       "payment_request_q": "Do you need to charge a client now, outside of a subscription?",
       "payment_request_a": "You send a 1-click payment request directly from <0/>. Your client receives the link on WhatsApp and pays in 2 minutes.",

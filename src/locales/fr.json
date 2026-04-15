@@ -604,6 +604,10 @@
     "other_uses": {
       "badge": "⚡ LES AUTRES USAGES",
       "title": "Parce que <0/> va plus loin",
+      "type_recurring_badge": "Abonnement récurrent",
+      "type_recurring_desc": "Mensualités, forfaits, SaaS — Faymaco relance et encaisse automatiquement chaque échéance.",
+      "type_onetime_badge": "Demande ponctuelle",
+      "type_onetime_desc": "Facture unique, acompte, solde — tu envoies une demande de paiement en un clic.",
       "payment_request_title": "Demande de paiement instantanée",
       "payment_request_q": "Tu as besoin d'encaisser un client maintenant, hors abonnement ?",
       "payment_request_a": "Tu envoies une demande de paiement en un clic directement depuis <0/>. Ton client reçoit le lien sur WhatsApp et paie en 2 minutes.",
