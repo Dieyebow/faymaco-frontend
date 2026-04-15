@@ -535,18 +535,18 @@ const Faymaco = () => {
          <div className="max-w-[1200px] mx-auto">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               <div className="reveal-up order-2 lg:order-1 relative rounded-[3rem] p-10 bg-[#FCFAF7] dark:bg-white/5 border border-[#143028]/5 dark:border-white/10 shadow-2xl">
-                 <div className="absolute -top-6 -right-6 w-24 h-24 bg-[#ffcccc] rounded-full blur-2xl opacity-40"></div>
+                 <div className="absolute -top-6 -right-6 w-24 h-24 bg-[#DAFFD1] rounded-full blur-2xl opacity-20 dark:opacity-5"></div>
                  <div className="space-y-6">
-                    <div className="flex gap-4 p-4 rounded-2xl bg-white dark:bg-[#0A1A14] shadow-sm border border-red-100 dark:border-red-900/30">
-                        <AlertCircle className="text-red-500 shrink-0 mt-1" />
+                    <div className="flex gap-4 p-4 rounded-2xl bg-white dark:bg-[#0A1A14] shadow-sm border border-[#143028]/10 dark:border-white/10 hover:border-[#DAFFD1] transition-colors">
+                        <AlertCircle className="text-[#143028] dark:text-[#DAFFD1] shrink-0 mt-1" />
                         <p className="text-sm md:text-base font-medium text-[#143028]/80 dark:text-white/80">{t('faymaco.problem.stripe_unavailable')}</p>
                     </div>
-                    <div className="flex gap-4 p-4 rounded-2xl bg-white dark:bg-[#0A1A14] shadow-sm border border-orange-100 dark:border-orange-900/30">
-                        <AlertCircle className="text-orange-500 shrink-0 mt-1" />
+                    <div className="flex gap-4 p-4 rounded-2xl bg-white dark:bg-[#0A1A14] shadow-sm border border-[#143028]/10 dark:border-white/10 hover:border-[#DAFFD1] transition-colors">
+                        <AlertCircle className="text-[#143028] dark:text-[#DAFFD1] shrink-0 mt-1" />
                         <p className="text-sm md:text-base font-medium text-[#143028]/80 dark:text-white/80">{t('faymaco.problem.no_auto_debit')}</p>
                     </div>
-                    <div className="flex gap-4 p-4 rounded-2xl bg-white dark:bg-[#0A1A14] shadow-sm border border-gray-100 dark:border-white/10">
-                        <Clock className="text-gray-500 shrink-0 mt-1" />
+                    <div className="flex gap-4 p-4 rounded-2xl bg-white dark:bg-[#0A1A14] shadow-sm border border-[#143028]/10 dark:border-white/10 hover:border-[#DAFFD1] transition-colors">
+                        <Clock className="text-[#143028] dark:text-[#DAFFD1] shrink-0 mt-1" />
                         <p className="text-sm md:text-base font-medium text-[#143028]/80 dark:text-white/80">{t('faymaco.problem.manual_followup')}</p>
                     </div>
                  </div>
