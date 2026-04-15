@@ -22,7 +22,8 @@ const PrivacyPolicy: React.FC = () => {
   const isEn = i18n.language && i18n.language.startsWith('en');
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+    document.title = isEn ? "Privacy Policy - Faymaco" : "Politique de Confidentialité - Faymaco";
+  }, [isEn]);
 
   return (
     <div className="min-h-screen bg-[#FCFAF7] dark:bg-[#0A1A14]">
@@ -32,8 +33,13 @@ const PrivacyPolicy: React.FC = () => {
       <div className="max-w-4xl mx-auto px-5 pt-32 pb-12 md:pt-40 md:pb-16">
         {/* Title block */}
         <div className="mb-12">
-          <div className="inline-flex items-center gap-2 bg-[#DAFFD1] text-[#143028] text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-4">
-            {isEn ? "Legal Document" : "Document légal"}
+          <div className="mb-6 bg-[#DAFFD1] p-3 rounded-2xl inline-block shadow-sm">
+             <img src="https://fayma.co/faymaco-transparent-2048.png" className="w-8 h-8 object-contain" alt="Faymaco Logo" />
+          </div>
+          <div className="flex">
+            <div className="inline-flex items-center gap-2 bg-[#DAFFD1] text-[#143028] text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-4">
+              {isEn ? "Legal Document" : "Document légal"}
+            </div>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold text-[#143028] dark:text-white mb-3">
             {isEn ? "Privacy Policy" : "Politique de Confidentialité"}
