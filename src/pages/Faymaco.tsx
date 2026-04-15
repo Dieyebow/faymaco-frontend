@@ -492,13 +492,7 @@ const Faymaco = () => {
             
             <div className="lg:col-span-12 xl:col-span-7 text-center xl:text-left reveal-up flex flex-col items-center xl:items-start">
               
-              <div className="mb-6 bg-[#DAFFD1] p-4 rounded-3xl inline-block shadow-lg">
-                 <img src="https://fayma.co/faymaco-transparent-2048.png" className="w-12 h-12 object-contain" alt="Faymaco Logo" />
-              </div>
 
-              <span className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white dark:bg-white/10 border border-[#143028]/10 dark:border-white/10 text-[10px] md:text-xs font-bold uppercase tracking-[0.15em] mb-8 shadow-sm text-[#143028] dark:text-[#DAFFD1]">
-                <ZapIcon size={14} className="text-[#143028] dark:text-[#DAFFD1]" /> {t('faymaco.hero.badge')}
-              </span>
               <h1 className="text-[#143028] dark:text-white font-bold mb-8 leading-[1.1] text-[2.8rem] sm:text-[3.5rem] lg:text-[4.2rem] xl:text-[5rem] tracking-tight">
                 {t('faymaco.hero.title')}
               </h1>
