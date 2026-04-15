@@ -573,7 +573,7 @@ const Faymaco = () => {
                   <p className="text-2xl mt-8 pt-6 border-t border-[#143028]/10 dark:border-white/10">
                     <Trans 
                       i18nKey="faymaco.problem.manual_collection"
-                      components={[<span className="text-red-500 underline decoration-red-200 underline-offset-4" />]}
+                      components={[<span className="font-bold underline decoration-[#143028]/30 dark:decoration-[#DAFFD1]/30 underline-offset-4 text-[#143028] dark:text-[#DAFFD1]" />]}
                     />
                   </p>
                 </div>
