@@ -652,7 +652,7 @@ const Faymaco = () => {
                  {/* Step Content Card */}
                  <div className="bg-white/80 dark:bg-white/5 backdrop-blur-sm rounded-3xl p-6 w-full border border-[#143028]/5 dark:border-white/10 hover:bg-white dark:hover:bg-white/10 transition-all shadow-sm hover:shadow-lg h-full flex flex-col items-center text-center group">
                     <span className="text-[10px] font-black uppercase tracking-widest text-[#143028]/40 dark:text-[#DAFFD1]/70 mb-3 bg-[#143028]/5 dark:bg-[#DAFFD1]/10 px-3 py-1 rounded-full">{item.step}</span>
-                    <h4 className="text-base font-bold text-[#143028] dark:text-white mb-3 group-hover:text-[#DAFFD1] dark:group-hover:text-[#DAFFD1] transition-colors">{item.time}</h4>
+                    <h4 className="text-base font-bold text-[#143028] dark:text-white mb-3 group-hover:text-[#143028] dark:group-hover:text-[#DAFFD1] transition-colors">{item.time}</h4>
                     <p className="text-sm font-medium text-[#143028]/70 dark:text-white/70 leading-relaxed flex-grow">
                       {item.desc}
                     </p>
