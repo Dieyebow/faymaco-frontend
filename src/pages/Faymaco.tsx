@@ -576,6 +576,31 @@ const Faymaco = () => {
          </div>
       </section>
 
+      {/* Founder Section */}
+      <section className="py-16 md:py-24 px-5 md:px-10 lg:px-12 bg-[#FCFAF7] dark:bg-[#0A1A14]">
+        <div className="max-w-[800px] mx-auto reveal-up">
+          <div className="relative bg-[#143028] dark:bg-white/5 rounded-[2.5rem] p-10 md:p-14 border border-[#143028]/10 dark:border-white/10 overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-[#DAFFD1]/10 rounded-full blur-[80px] pointer-events-none" />
+            <span className="inline-block text-[10px] font-black uppercase tracking-[0.2em] text-[#DAFFD1]/60 mb-8">
+              {t('faymaco.founder.label')}
+            </span>
+            <blockquote className="text-xl md:text-2xl font-medium text-white leading-relaxed mb-10 relative z-10">
+              <span className="text-[5rem] leading-none text-[#DAFFD1]/20 font-serif absolute -top-4 -left-2 select-none">"</span>
+              <span className="relative z-10 italic">{t('faymaco.founder.quote')}</span>
+            </blockquote>
+            <div className="flex items-center gap-4 border-t border-white/10 pt-8">
+              <div className="w-10 h-10 rounded-full bg-[#DAFFD1] flex items-center justify-center shrink-0">
+                <span className="text-[#143028] font-black text-sm">MD</span>
+              </div>
+              <div>
+                <p className="text-white font-bold text-sm">{t('faymaco.founder.name')}</p>
+                <p className="text-white/50 text-xs font-medium">{t('faymaco.founder.role')}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Comment ça marche Section */}
       <section id="how-it-works" className="py-20 md:py-40 px-5 md:px-10 lg:px-12 bg-[#FCFAF7] dark:bg-[#0A1A14] overflow-hidden">
         <div className="max-w-[1400px] mx-auto">

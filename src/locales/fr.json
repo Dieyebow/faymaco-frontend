@@ -558,6 +558,12 @@
       "invoice_name": "Facture_001.pdf",
       "total": "Total"
     },
+    "founder": {
+      "label": "Construit par un fondateur qui en avait besoin",
+      "quote": "Peelo facture ses clients chaque mois. Relancer chacun d'eux manuellement était devenu chronophage et épuisant. Faymaco a résolu ce problème dès le premier jour. Aujourd'hui le recouvrement tourne en autonomie — je me concentre sur ce qui compte vraiment.",
+      "name": "Mamadou Dieye",
+      "role": "Fondateur & CEO, Peelo · Premier utilisateur de Faymaco"
+    },
     "problem": {
       "stripe_unavailable": "Stripe n'est pas disponible dans ton pays.",
       "no_auto_debit": "Wave et Orange Money ne proposent pas de prélèvement automatique.",

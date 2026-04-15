@@ -556,6 +556,12 @@
       "invoice_name": "Invoice_001.pdf",
       "total": "Total"
     },
+    "founder": {
+      "label": "Built by a founder who needed it",
+      "quote": "Peelo invoices its clients every month. Chasing each one of them manually had become time-consuming and exhausting. Faymaco solved that problem from day one. Today collections run on their own — I focus on what actually matters.",
+      "name": "Mamadou Dieye",
+      "role": "Founder & CEO, Peelo · Faymaco's first user"
+    },
     "problem": {
       "stripe_unavailable": "Stripe is not available in your country.",
       "no_auto_debit": "Wave and Orange Money do not offer automatic direct debit.",
