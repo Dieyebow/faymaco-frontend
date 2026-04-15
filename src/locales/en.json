@@ -538,7 +538,7 @@
     "hero": {
       "badge": "New Product",
       "title": "Stop chasing your clients to get paid.",
-      "subtitle_1": "<brand/> automates your reminders and payment collection directly on <0>WhatsApp</0>.",
+      "subtitle_1": "<1/> automates your reminders and payment collection directly on <0>WhatsApp</0>.",
       "subtitle_2": "<0>Wave, Orange Money, Free Money</0> — without complex integration.",
       "cta": "Request Access",
       "priority_access": "Access by invitation — every profile is reviewed"
@@ -568,7 +568,7 @@
       "manual_collection": "Manual collection becomes your biggest <0>bottleneck for growth</0>."
     },
     "how_it_works": {
-      "title": "<brand/> handles everything.",
+      "title": "<0/> handles everything.",
       "subtitle": "You just collect the cash.",
       "step1_badge": "Step 1",
       "step1_title": "D-3 before expiration",
@@ -585,33 +585,33 @@
       "you_touch_nothing": "You? You don't touch a thing."
     },
     "target": {
-      "title": "<brand/> is for you if...",
+      "title": "<0/> is for you if...",
       "point1": "You manage a SaaS or an application with a monthly subscription",
       "point2": "You offer online training or courses with monthly installments",
       "point3": "You are a clinic, agency, or firm with recurring retainers",
       "point4": "You operate in Africa and traditional payment solutions don't work for you",
       "point5": "You are tired of wasting time and money on manual follow-ups",
-      "conclusion": "If your business has subscribers, <brand/> works for you."
+      "conclusion": "If your business has subscribers, <0/> works for you."
     },
     "other_uses": {
       "badge": "⚡ OTHER USES",
-      "title": "Because <brand/> goes further",
+      "title": "Because <0/> goes further",
       "payment_request_title": "Instant Payment Request",
       "payment_request_q": "Do you need to charge a client now, outside of a subscription?",
-      "payment_request_a": "You send a 1-click payment request directly from <brand/>. Your client receives the link on WhatsApp and pays in 2 minutes.",
+      "payment_request_a": "You send a 1-click payment request directly from <0/>. Your client receives the link on WhatsApp and pays in 2 minutes.",
       "debt_collection_title": "Debt Collection",
       "debt_collection_q": "A client has an overdue invoice for several weeks?",
       "debt_collection_a": "You create a targeted manual reminder with a direct payment button. No need to call or send messages one by one.",
       "installments_title": "Payment in Installments",
       "installments_q": "Do you offer a service for 150,000 FCFA?",
-      "installments_a": "<brand/> can divide it into monthly installments and manage each due date automatically."
+      "installments_a": "<0/> can divide it into monthly installments and manage each due date automatically."
     },
     "request_access": {
       "title": "Access by invitation only.",
-      "subtitle": "<brand/> is not yet open to the public.",
+      "subtitle": "<0/> is not yet open to the public.",
       "description": "Submit your access request. Our team reviews each profile and contacts you personally if your use case is a match.",
       "success_title": "Request submitted.",
-      "success_desc": "Your profile is under review. You will be contacted personally if your use case matches <brand/>.",
+      "success_desc": "Your profile is under review. You will be contacted personally if your use case matches <0/>.",
       "form_name": "Full Name",
       "form_name_ph": "Your full name",
       "form_email": "Email",

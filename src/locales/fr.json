@@ -540,7 +540,7 @@
     "hero": {
       "badge": "Nouveau Produit",
       "title": "Arrête de courir après tes clients pour te faire payer.",
-      "subtitle_1": "<brand/> automatise tes relances et ton recouvrement directement sur <0>WhatsApp</0>.",
+      "subtitle_1": "<1/> automatise tes relances et ton recouvrement directement sur <0>WhatsApp</0>.",
       "subtitle_2": "<0>Wave, Orange Money, Free Money</0> — sans intégration complexe.",
       "cta": "Demander l'accès",
       "priority_access": "Accès sur invitation — chaque profil est examiné"
@@ -570,7 +570,7 @@
       "manual_collection": "Le recouvrement manuel devient ton plus grand <0>frein à la croissance</0>."
     },
     "how_it_works": {
-      "title": "<brand/> gère tout.",
+      "title": "<0/> gère tout.",
       "subtitle": "Toi tu encaisses.",
       "step1_badge": "Étape 1",
       "step1_title": "J-3 avant expiration",
@@ -587,33 +587,33 @@
       "you_touch_nothing": "Toi ? Tu ne touches à rien."
     },
     "target": {
-      "title": "<brand/> est fait pour toi si...",
+      "title": "<0/> est fait pour toi si...",
       "point1": "Tu gères un SaaS ou une application avec abonnement mensuel",
       "point2": "Tu proposes des formations ou cours en ligne avec mensualités",
       "point3": "Tu es une clinique, agence ou cabinet avec des forfaits récurrents",
       "point4": "Tu opères en Afrique et les solutions de paiement classiques ne marchent pas chez toi",
       "point5": "Tu en as marre de perdre du temps et de l'argent sur des relances manuelles",
-      "conclusion": "Si ton business a des abonnés, <brand/> travaille pour toi."
+      "conclusion": "Si ton business a des abonnés, <0/> travaille pour toi."
     },
     "other_uses": {
       "badge": "⚡ LES AUTRES USAGES",
-      "title": "Parce que <brand/> va plus loin",
+      "title": "Parce que <0/> va plus loin",
       "payment_request_title": "Demande de paiement instantanée",
       "payment_request_q": "Tu as besoin d'encaisser un client maintenant, hors abonnement ?",
-      "payment_request_a": "Tu envoies une demande de paiement en un clic directement depuis <brand/>. Ton client reçoit le lien sur WhatsApp et paie en 2 minutes.",
+      "payment_request_a": "Tu envoies une demande de paiement en un clic directement depuis <0/>. Ton client reçoit le lien sur WhatsApp et paie en 2 minutes.",
       "debt_collection_title": "Recouvrement de créance",
       "debt_collection_q": "Un client a une facture en retard depuis plusieurs semaines ?",
       "debt_collection_a": "Tu crées une relance manuelle ciblée avec un bouton de paiement direct. Plus besoin d'appeler ou d'envoyer des messages un par un.",
       "installments_title": "Paiement en plusieurs fois",
       "installments_q": "Tu proposes un service à 150 000 FCFA ?",
-      "installments_a": "<brand/> peut découper en mensualités et gérer chaque échéance automatiquement."
+      "installments_a": "<0/> peut découper en mensualités et gérer chaque échéance automatiquement."
     },
     "request_access": {
       "title": "Accès sur invitation.",
-      "subtitle": "<brand/> n'est pas encore ouvert au public.",
+      "subtitle": "<0/> n'est pas encore ouvert au public.",
       "description": "Soumets ta demande d'accès. Notre équipe examine chaque profil et te contacte personnellement si ton usage correspond.",
       "success_title": "Demande envoyée.",
-      "success_desc": "Ton profil est en cours d'examen. Tu seras contacté(e) personnellement si ton usage correspond à <brand/>.",
+      "success_desc": "Ton profil est en cours d'examen. Tu seras contacté(e) personnellement si ton usage correspond à <0/>.",
       "form_name": "Nom complet",
       "form_name_ph": "Ton nom complet",
       "form_email": "Email",
